@@ -54,3 +54,37 @@ body {
 .jumbotron .logo img {
     max-width: 100%
 }
+
+.jumbotron .page-scroll { height: 80px; width: 110px; display: block; position: absolute; bottom: 0px; right: 5%; background-color: #222222; text-align: center; z-index: 6; }
+.jumbotron .page-scroll .glyphicon { 
+	color: #FFFFFF; 
+	font-size: 30px; 
+	padding-right: 2px; 
+	padding-top: 20px; 
+	
+	animation-name: wiggle;
+	animation-duration: 1.2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.jumbotron .page-scroll:hover .glyphicon { padding-top: 25px; }
+
+@keyframes wiggle {
+	0% {
+		padding-top: 20px;
+	}
+    
+	50% {
+		padding-top: 28px;
+	}
+    
+	100% {
+		padding-top: 20px;
+	}
+}
+
+
+@media (max-width: 767px) { 
+	.jumbotron .page-scroll { width: 100%; right: 0px; height: 70px;}
+}
