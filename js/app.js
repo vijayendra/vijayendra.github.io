@@ -4,7 +4,7 @@
   function onPageLoad(){
     $(window).resize(onWindowResize);
     function onWindowResize(){
-      var height = $(window).height();
+      var height = $(window).height() - 50;
       $('.jumbotron').css("height", height+"px");
     }
     onWindowResize();
