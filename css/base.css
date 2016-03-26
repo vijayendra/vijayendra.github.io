@@ -20,6 +20,7 @@ body {
     padding-top: 40px;
     margin-top: -40px;
 }
+.section p{ text-align: justify;}
 
 .jumbotron {
     background: #532f8c;
