@@ -89,3 +89,7 @@ body {
 @media (max-width: 767px) { 
 	.jumbotron .page-scroll { width: 100%; right: 0px; height: 70px;}
 }
+
+#skills button{
+    margin: 5px 0 5px 0;
+}
