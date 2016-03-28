@@ -27,20 +27,15 @@ body {
     color: white;
     padding-bottom: 80px
 }
-.jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7
+
+.navbar+.jumbotron {
+    margin-top: -20px
 }
-.jumbotron .btn-primary:hover {
-    background: #7646c1
-}
+
 .jumbotron p {
     color: #d9ccee;
     max-width: 75%;
     margin: 1em auto 2em
-}
-.navbar+.jumbotron {
-    margin-top: -20px
 }
 .jumbotron .logo {
     display: block;
@@ -56,6 +51,13 @@ body {
     max-width: 100%
 }
 
+.jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7
+}
+.jumbotron .btn-primary:hover {
+    background: #7646c1
+}
 .jumbotron .page-scroll { height: 80px; width: 110px; display: block; position: absolute; bottom: 0px; right: 5%; background-color: #222222; text-align: center; z-index: 6; }
 .jumbotron .page-scroll .glyphicon { 
 	color: #FFFFFF; 
@@ -92,4 +94,12 @@ body {
 
 #skills button{
     margin: 5px 0 5px 0;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }
