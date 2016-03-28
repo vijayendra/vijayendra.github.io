@@ -103,3 +103,8 @@ body {
   display: flex;
   align-items: center;
 }
+
+#work .panel .panel-heading img{
+    height: 24px;
+    margin-bottom: 5px;
+}
