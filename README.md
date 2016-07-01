@@ -6,4 +6,4 @@ Check out live at <http://vijayendra.github.io>!
 
 ## License
 
-[MIT License](LICENSE) © Vijayendra Bapte
+[MIT License](https://vijayendra.mit-license.org/) © Vijayendra Bapte
